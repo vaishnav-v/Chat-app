@@ -1,0 +1,28 @@
+.outgoing-chat {
+    .chat-content {
+        background-color: #e5dcec;
+        border-radius: 8px 8px 0 8px;
+        color: #474747;
+        padding: 12px 20px;
+        position: relative;
+        margin-bottom: 12px;
+    }
+
+    .user-name-text {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .time.sent {
+        display: flex;
+        justify-content: end;
+        color: #424242;
+        font-size: 12px;
+
+        i {
+            margin: 0 6px;
+        }
+
+        span {}
+    }
+}

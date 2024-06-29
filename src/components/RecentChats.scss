@@ -1,0 +1,35 @@
+.recent-chats {
+    background-color: #f7f7ff;
+    width: 420px;
+    padding: 18px 18px;
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .filter {
+
+        .box {
+            width: 100%;
+            background-color: #e6edfb;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            padding: 9px 22px;
+        }
+
+        .box>input {
+            flex: 1;
+            border: none;
+            background-color: #e6edfb;
+            outline: none;
+            font-size: 18px;
+            padding-left: 10px;
+            min-width: 0;
+            &::placeholder{
+                font-size: 16px;
+                // color: #e8eef5;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.sidebar {
+    .header {
+        padding: 24px 0px 48px;
+    }
+
+    .nav-link {
+        background: none;
+        border: 0;
+        display: block;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+        border-radius: 8px;
+        color: #878a92;
+        font-size: 24px;
+        height: 56px;
+        line-height: 56px;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        width: 56px;
+        cursor: pointer;
+        :hover{
+            color: #535bf2;
+        }
+    }
+}

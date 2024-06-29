@@ -1,0 +1,41 @@
+.incomming-chat {
+
+    .chat-content {
+        background-color: #7269ef;
+        border-radius: 8px 8px 8px 0;
+        color: #fff;
+        padding: 12px 20px;
+        position: relative;
+        margin-bottom: 12px;
+
+        &::before {
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid #7269ef;
+            border-right: 5px solid transparent;
+            border-top: 5px solid #7269ef;
+            bottom: -9px;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: auto;
+        }
+    }
+
+    .user-name-text {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .time.sent {
+        display: flex;
+        justify-content: end;
+        color: hsla(0, 0%, 100%, .5);
+        font-size: 12px;
+
+        i {
+            margin: 0 6px;
+        }
+
+        span {}
+    }
+}

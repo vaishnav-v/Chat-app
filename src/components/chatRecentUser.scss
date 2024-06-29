@@ -1,0 +1,47 @@
+.user-item {
+    transition: all 500ms ease;
+    height: 72px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #e6ebf5;
+    }
+
+    // border: 1px solid red;
+    padding: 6px 12px;
+    align-items: center;
+    border-radius: 4px;
+
+    .middle-content {
+        padding: 0 8px;
+    }
+
+    .recent-chat-content {
+        color: #5a5d69;
+    }
+
+    .user-name {
+        font-weight: 500;
+    }
+
+    .end {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        .time {
+            color: #666770;
+            font-size: 12px;
+        }
+
+        .unread {
+            padding: 2px 5px;
+            background-color: rgba(239, 71, 111, .18);
+            color: #ef476f;
+            font-size: 12px;
+            border-radius: 40px;
+        }
+    }
+}
